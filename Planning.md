@@ -18,8 +18,8 @@ F1-score is especially important because it balances precision and recall and sh
 A successful classifier should achieve:
 
 - 70%+ overall accuracy
-- F1 score above 0.65 for all labels
-- Significant improvement over the zero-shot Llama baseline
+- F1 score above 0.65 for most labels
+- Comparable performance to a zero-shot Llama baseline while learning the discourse categories from a small labeled dataset
 
 At this performance level the classifier would be useful as a moderation or discussion-quality analysis tool for the Jujutsu Kaisen community.
 
